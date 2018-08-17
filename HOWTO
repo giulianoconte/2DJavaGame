@@ -1,0 +1,12 @@
+HOW TO CREATE A GAME, rough chronological steps: (look at this game for examples)
+
+.	initialize gl stuff for window
+.	matrix/perspective/vector math
+.	shaders/textures... (elaborate in the future.) just look at How to create Flappy Bird in 3 hours video to get started or look at my previous iterations on it
+.	create time and timer system
+.	create Input system 
+.	create position,velocity,acceleration,force system using 2D or 3D vectors depending on your game
+.	test create some entity(s)
+.	camera/scrolling
+.	create Entity container/handler system (look at EntityList and how it reacts to Level) -- probably put Game in a singleton to so you can access game logic/state/entities/etc globally
+.	create physics system

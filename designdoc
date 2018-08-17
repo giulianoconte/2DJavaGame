@@ -1,0 +1,26 @@
+	Enemies
+
+Crawler
+	Upper half of an infected human, crawls somewhat aimlessly and may target you
+Runner
+	Running zombie, accelerates toward you
+Zomboid
+	Flocking zombies that like to stay in groups
+Wallhugger
+	Follows your position along the wall, to strike when you go for a door or wall
+Spectre
+	Somewhat invisible ghost that (maybe) uses displacement map instead of texture. Maybe immune to bullets
+Banshee
+	Darkens the room with its shrieks
+
+
+	Items
+
+Torch
+	Place at your position to illuminate an area for some time
+
+
+	Weapons
+
+Pistol
+	It's a pistol

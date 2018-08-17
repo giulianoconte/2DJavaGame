@@ -1,0 +1,75 @@
+TODO: 
+
+
+	navigation
+**have navigator handle all paths, 
+	implement queue for path updating
+create room-based navmesh graph
+
+	steering
+figure out giving weights to behaviors/organize where variables are kept for neighbors/etc (probably put these in Entity class?)
+	give different weights for different states!
+implement wall following behavior
+implement surface-protocol
+
+	physics
+create walls and normal forces
+
+	graphics
+create visual object for path/line segment (2 circles and rectangle)
+flashlight shake, based on random noise, increases based on amount of nearby monsters
+in fragment shader pass in uniform array of lights (vec2 for position, vec3 for color, maybe range/intensity values as well) so we can drop torches/lamps
+
+
+	maybes
+decouple calculation size and render size
+poke about with instancing
+
+
+DEMOS
+
+
+	Gameplay
+Shooting zombies...
+
+	Graphics
+Diffuse combinations
+Spotlight combinations
+Different material/texture light combinations
+Blur
+Sobel Edge detection
+
+	Steering
+Seek
+Arrive
+PathFollow (Reynold's version)
+A* PathFollow through obstacles (WayPoint version)
+Align + Separate + Cohere
+Arrive + Separate
+
+	Navigator
+Many A* calls at once vs Using Queue
+
+
+
+ENGINE:
+
+	entity
+8 cardinal direction movement
+360 degree movement
+direct-toward x,y position movement
+rotation
+circular movement
+spawn entity
+
+	physics
+bounding box collision
+multiple force application
+
+	camera
+x,y scrolling
+
+	graphics
+2D sprites, rotatable, alpha
+text (maybe)
+lights
